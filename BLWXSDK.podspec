@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BLWXSDK'
-  s.version          = '1.8.2'
+  s.version          = '1.8.2.0'
   s.summary          = '微信 SDK 动态库'
   s.description      = '微信 SDK 动态库,版本与官方版本号相同'
   s.homepage         = 'https://github.com/linhay/BLWXSDK'
@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'Sources/**/*'
+  s.frameworks = [ 'SystemConfiguration','Security','CoreTelephony','CFNetwork','UIKit']
 
 end
