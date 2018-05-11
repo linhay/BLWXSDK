@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BLWXSDK_Example' do
+  pod 'BLWXSDK', :path => '../'
+
+  target 'BLWXSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

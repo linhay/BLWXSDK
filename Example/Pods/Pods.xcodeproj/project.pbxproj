@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DBF28B992A8C5BEE0EAB434CB361E7 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 47E76696167CC8609B622E59A6231783 /* Info.plist */; };
+		034B9FE2A422C7905678A3B136747A06 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = E0230F991A1FD8384803E56DD226A221 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		096035EC960D5CE3C981D1B7803C0546 /* Pods-BLWXSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D640F83C5A028AC121E6F78BFF52AD7B /* Pods-BLWXSDK_Example-dummy.m */; };
+		13D6E0095F761120B2431DC844DA1645 /* Pods-BLWXSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B0EC9B52DD71AD16ED1CCC4393CED3 /* Pods-BLWXSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D9E63EDBB3AFC1884544A3454CBF16E /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 791E6E6E3D51FF0F407EAE84F03CB588 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3523D572CF0C8F2EF7E1AABCE674071A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		41109B13C04D66C3FC7A99C5799743CC /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = A24686A04BA672CB22BE627B00DE4B95 /* module.modulemap */; };
+		51378A1C0A82F19ED843D68D61BCB7D0 /* BLWXSDK in Sources */ = {isa = PBXBuildFile; fileRef = 27E18073E556E2A63CCCE2BBF77BD0C4 /* BLWXSDK */; };
+		69F1EF73D9DFD42880ABA2B3201065E5 /* BLWXSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447838D51DE00DCC8CF083E2A692DCA /* BLWXSDK-dummy.m */; };
+		78648CF13B9E39200FE9B0D3F69CDD47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7E901180AAB4E7E52C73B8E1941B4240 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA7C0E8B6641A9870BA39162CA2B278 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B36A09B70634E52E1194B48E4389E318 /* Pods-BLWXSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4038973E18B78CBDCE3641AD337532 /* Pods-BLWXSDK_Tests-dummy.m */; };
+		B9447D8894B85A8470D8854483DB8B00 /* BLWXSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C6E1FB3E3F8DAF0E394618053B0461 /* BLWXSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF2C413606428941AFD26DAE6C39D2D3 /* BLWXSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21DE9298B2CB0DD675B63BE9B92E807D /* BLWXSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4D69B2609CD49CA1A54DCAEF4160E16 /* Pods-BLWXSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D904F3F95F54CFA06CEFDE7016DAB7C /* Pods-BLWXSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8E2439E1E477673B09254681F17E163 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		028FD684D2FD8C43D2AA51B2947D93F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B5461450DCD0D022C14EA2857653FA;
+			remoteInfo = BLWXSDK;
+		};
+		815529287A2DA56C466ADE627307FDA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8312EDA2F09F8A7A23EED4D534BC9AA2;
+			remoteInfo = "Pods-BLWXSDK_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0447838D51DE00DCC8CF083E2A692DCA /* BLWXSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLWXSDK-dummy.m"; sourceTree = "<group>"; };
+		04ACF64FDBAD4B9AE92B592491124CF9 /* Pods-BLWXSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLWXSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0B90E159AAC62E6475F6875D01CFD930 /* Pods-BLWXSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLWXSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		192BEA0518B085270BA35F88FD9C8032 /* BLWXSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BLWXSDK.modulemap; sourceTree = "<group>"; };
+		21DE9298B2CB0DD675B63BE9B92E807D /* BLWXSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLWXSDK-umbrella.h"; sourceTree = "<group>"; };
+		26A12287A1848A4FAE6A32EA46DADA1C /* Pods-BLWXSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLWXSDK_Example-resources.sh"; sourceTree = "<group>"; };
+		27E18073E556E2A63CCCE2BBF77BD0C4 /* BLWXSDK */ = {isa = PBXFileReference; includeInIndex = 1; name = BLWXSDK; path = Sources/BLWXSDK.framework/BLWXSDK; sourceTree = "<group>"; };
+		2CD97D44C03A4BD2367ECDC68976F5D5 /* Pods-BLWXSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BLWXSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		3CEE143AF249646FD3A11941F94ED9C2 /* Pods_BLWXSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BLWXSDK_Tests.framework; path = "Pods-BLWXSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E76696167CC8609B622E59A6231783 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/BLWXSDK.framework/Info.plist; sourceTree = "<group>"; };
+		511B231367A3474E2E0DA57553EA4CE5 /* BLWXSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLWXSDK.framework; path = BLWXSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62FAAD6426DAD6E838EB615DC64008BA /* Pods-BLWXSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BLWXSDK_Example.modulemap"; sourceTree = "<group>"; };
+		642FB6188F7C6B34314C418F40986721 /* Pods-BLWXSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLWXSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66D71B0EB1336B64321A68834C9E0062 /* Pods-BLWXSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLWXSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7737FC7D445E90A8961A949C244D45C9 /* Pods_BLWXSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BLWXSDK_Example.framework; path = "Pods-BLWXSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		791E6E6E3D51FF0F407EAE84F03CB588 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		888E53E3C4B6596932EA0703FA1BDCC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A4038973E18B78CBDCE3641AD337532 /* Pods-BLWXSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLWXSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		8D904F3F95F54CFA06CEFDE7016DAB7C /* Pods-BLWXSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLWXSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9058D1787C4BB129895F2EB2F8ABECC3 /* Pods-BLWXSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLWXSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		905C95B6617A0BA73456E806FB6BA54A /* Pods-BLWXSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLWXSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		909E8A1FF5FA49305B606CAAA48EE08C /* Pods-BLWXSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLWXSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94FD7815CADEE6B6F111E7AF2246B715 /* BLWXSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLWXSDK-prefix.pch"; sourceTree = "<group>"; };
+		96711C0BDEDE3CD8869D6F916A47E3E6 /* Pods-BLWXSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLWXSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9AD7B842457197B28DBAC36CF4EAF741 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C90AA6E25EC0D69657E1989E1ABF8AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9FA7C0E8B6641A9870BA39162CA2B278 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		A24686A04BA672CB22BE627B00DE4B95 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
+		A75C2F4FCE5B11910A18B67110F57A82 /* Pods-BLWXSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLWXSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C003B724BB400D6F7FFDE86D963A1C68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C168238F9C5E2EDE7D0B99BBB6C283D6 /* Pods-BLWXSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLWXSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D600DB158B99061315560628A12E0EE1 /* BLWXSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BLWXSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D640F83C5A028AC121E6F78BFF52AD7B /* Pods-BLWXSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLWXSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		D7564203A04AB91EC4B15E18046C6CA1 /* Pods-BLWXSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLWXSDK_Tests-resources.sh"; sourceTree = "<group>"; };
+		DB4A837AA5B2026D2CADBF542647F19D /* BLWXSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLWXSDK.xcconfig; sourceTree = "<group>"; };
+		DB963B7F612ABDDB5D53EE96118F2637 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E0230F991A1FD8384803E56DD226A221 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		E7B0EC9B52DD71AD16ED1CCC4393CED3 /* Pods-BLWXSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLWXSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		F5C6E1FB3E3F8DAF0E394618053B0461 /* BLWXSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BLWXSDK.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51EBA3DB22F61C3115E78D1FAC46C87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E2439E1E477673B09254681F17E163 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BAD3BB7AC74EAC6815F8F92C93DFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3523D572CF0C8F2EF7E1AABCE674071A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEEC6F9A49DF913A959ECF4E664B9B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78648CF13B9E39200FE9B0D3F69CDD47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		590122F4A13F17290CE1F8D35CB509CA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6E1FB3E3F8DAF0E394618053B0461 /* BLWXSDK.h */,
+				9FA7C0E8B6641A9870BA39162CA2B278 /* WechatAuthSDK.h */,
+				E0230F991A1FD8384803E56DD226A221 /* WXApi.h */,
+				791E6E6E3D51FF0F407EAE84F03CB588 /* WXApiObject.h */,
+			);
+			name = Headers;
+			path = Sources/BLWXSDK.framework/Headers;
+			sourceTree = "<group>";
+		};
+		63FF9BF43633B90F59FF5C3D5C071DD1 /* BLWXSDK */ = {
+			isa = PBXGroup;
+			children = (
+				27E18073E556E2A63CCCE2BBF77BD0C4 /* BLWXSDK */,
+				47E76696167CC8609B622E59A6231783 /* Info.plist */,
+				590122F4A13F17290CE1F8D35CB509CA /* Headers */,
+				EFD12D26188F8BE10FF28D51965ECE5A /* Modules */,
+				FC905A576E59390538FE84AEE9AA2C02 /* Pod */,
+				D98F2F9120495BADA22445FA3DB8B056 /* Support Files */,
+			);
+			name = BLWXSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FF6D162FFB08277F8B9810A1842DDED1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E60F90C84C9D75D35A0B4B9B5E914BC3 /* Products */,
+				CC64717248806A31302327CDDA60FCF3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A5E52238DD859BBA4E6058410EEDB5A /* Pods-BLWXSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C003B724BB400D6F7FFDE86D963A1C68 /* Info.plist */,
+				62FAAD6426DAD6E838EB615DC64008BA /* Pods-BLWXSDK_Example.modulemap */,
+				642FB6188F7C6B34314C418F40986721 /* Pods-BLWXSDK_Example-acknowledgements.markdown */,
+				909E8A1FF5FA49305B606CAAA48EE08C /* Pods-BLWXSDK_Example-acknowledgements.plist */,
+				D640F83C5A028AC121E6F78BFF52AD7B /* Pods-BLWXSDK_Example-dummy.m */,
+				905C95B6617A0BA73456E806FB6BA54A /* Pods-BLWXSDK_Example-frameworks.sh */,
+				26A12287A1848A4FAE6A32EA46DADA1C /* Pods-BLWXSDK_Example-resources.sh */,
+				E7B0EC9B52DD71AD16ED1CCC4393CED3 /* Pods-BLWXSDK_Example-umbrella.h */,
+				04ACF64FDBAD4B9AE92B592491124CF9 /* Pods-BLWXSDK_Example.debug.xcconfig */,
+				96711C0BDEDE3CD8869D6F916A47E3E6 /* Pods-BLWXSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-BLWXSDK_Example";
+			path = "Target Support Files/Pods-BLWXSDK_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC64717248806A31302327CDDA60FCF3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A5E52238DD859BBA4E6058410EEDB5A /* Pods-BLWXSDK_Example */,
+				FDBFD515526ED04A46B291B40348F2A7 /* Pods-BLWXSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D98F2F9120495BADA22445FA3DB8B056 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				192BEA0518B085270BA35F88FD9C8032 /* BLWXSDK.modulemap */,
+				DB4A837AA5B2026D2CADBF542647F19D /* BLWXSDK.xcconfig */,
+				0447838D51DE00DCC8CF083E2A692DCA /* BLWXSDK-dummy.m */,
+				94FD7815CADEE6B6F111E7AF2246B715 /* BLWXSDK-prefix.pch */,
+				21DE9298B2CB0DD675B63BE9B92E807D /* BLWXSDK-umbrella.h */,
+				888E53E3C4B6596932EA0703FA1BDCC3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BLWXSDK";
+			sourceTree = "<group>";
+		};
+		E60F90C84C9D75D35A0B4B9B5E914BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				511B231367A3474E2E0DA57553EA4CE5 /* BLWXSDK.framework */,
+				7737FC7D445E90A8961A949C244D45C9 /* Pods_BLWXSDK_Example.framework */,
+				3CEE143AF249646FD3A11941F94ED9C2 /* Pods_BLWXSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD12D26188F8BE10FF28D51965ECE5A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A24686A04BA672CB22BE627B00DE4B95 /* module.modulemap */,
+			);
+			name = Modules;
+			path = Sources/BLWXSDK.framework/Modules;
+			sourceTree = "<group>";
+		};
+		FC905A576E59390538FE84AEE9AA2C02 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D600DB158B99061315560628A12E0EE1 /* BLWXSDK.podspec */,
+				9C90AA6E25EC0D69657E1989E1ABF8AB /* LICENSE */,
+				DB963B7F612ABDDB5D53EE96118F2637 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FDBFD515526ED04A46B291B40348F2A7 /* Pods-BLWXSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD7B842457197B28DBAC36CF4EAF741 /* Info.plist */,
+				2CD97D44C03A4BD2367ECDC68976F5D5 /* Pods-BLWXSDK_Tests.modulemap */,
+				66D71B0EB1336B64321A68834C9E0062 /* Pods-BLWXSDK_Tests-acknowledgements.markdown */,
+				C168238F9C5E2EDE7D0B99BBB6C283D6 /* Pods-BLWXSDK_Tests-acknowledgements.plist */,
+				8A4038973E18B78CBDCE3641AD337532 /* Pods-BLWXSDK_Tests-dummy.m */,
+				0B90E159AAC62E6475F6875D01CFD930 /* Pods-BLWXSDK_Tests-frameworks.sh */,
+				D7564203A04AB91EC4B15E18046C6CA1 /* Pods-BLWXSDK_Tests-resources.sh */,
+				8D904F3F95F54CFA06CEFDE7016DAB7C /* Pods-BLWXSDK_Tests-umbrella.h */,
+				9058D1787C4BB129895F2EB2F8ABECC3 /* Pods-BLWXSDK_Tests.debug.xcconfig */,
+				A75C2F4FCE5B11910A18B67110F57A82 /* Pods-BLWXSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-BLWXSDK_Tests";
+			path = "Target Support Files/Pods-BLWXSDK_Tests";
+			sourceTree = "<group>";
+		};
+		FF6D162FFB08277F8B9810A1842DDED1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63FF9BF43633B90F59FF5C3D5C071DD1 /* BLWXSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BB3A1463C60CEAF1276DAA5ABE0ABAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D6E0095F761120B2431DC844DA1645 /* Pods-BLWXSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F89AB64BE3B2189F53A3F6E3DCE6624 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D69B2609CD49CA1A54DCAEF4160E16 /* Pods-BLWXSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2F02457D274D64CC0387EFEE2E4962 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2C413606428941AFD26DAE6C39D2D3 /* BLWXSDK-umbrella.h in Headers */,
+				B9447D8894B85A8470D8854483DB8B00 /* BLWXSDK.h in Headers */,
+				7E901180AAB4E7E52C73B8E1941B4240 /* WechatAuthSDK.h in Headers */,
+				034B9FE2A422C7905678A3B136747A06 /* WXApi.h in Headers */,
+				1D9E63EDBB3AFC1884544A3454CBF16E /* WXApiObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71B9BE2F628495A36F751C69FCC3753B /* Pods-BLWXSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA699934F88623862FE75DE736C34ED0 /* Build configuration list for PBXNativeTarget "Pods-BLWXSDK_Tests" */;
+			buildPhases = (
+				1FAF9501FA509C2A6EEA6E353BB50F9B /* Sources */,
+				51EBA3DB22F61C3115E78D1FAC46C87E /* Frameworks */,
+				2F89AB64BE3B2189F53A3F6E3DCE6624 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD0367AAB9E283ADD69F8920CE501D37 /* PBXTargetDependency */,
+			);
+			name = "Pods-BLWXSDK_Tests";
+			productName = "Pods-BLWXSDK_Tests";
+			productReference = 3CEE143AF249646FD3A11941F94ED9C2 /* Pods_BLWXSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8312EDA2F09F8A7A23EED4D534BC9AA2 /* Pods-BLWXSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290236F9997190E7327E54FFD7FDCEC6 /* Build configuration list for PBXNativeTarget "Pods-BLWXSDK_Example" */;
+			buildPhases = (
+				8856FA0CDA9FB916BE2C70CB06D0779F /* Sources */,
+				84BAD3BB7AC74EAC6815F8F92C93DFAC /* Frameworks */,
+				0BB3A1463C60CEAF1276DAA5ABE0ABAF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D9D3F957D90B1C34EC57D75BA86503 /* PBXTargetDependency */,
+			);
+			name = "Pods-BLWXSDK_Example";
+			productName = "Pods-BLWXSDK_Example";
+			productReference = 7737FC7D445E90A8961A949C244D45C9 /* Pods_BLWXSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5B5461450DCD0D022C14EA2857653FA /* BLWXSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D935F22741DB41CA82A3699C291B5EB0 /* Build configuration list for PBXNativeTarget "BLWXSDK" */;
+			buildPhases = (
+				26A33664198DA2E194179DC677E50DD9 /* Sources */,
+				DFEEC6F9A49DF913A959ECF4E664B9B0 /* Frameworks */,
+				6E2F02457D274D64CC0387EFEE2E4962 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLWXSDK;
+			productName = BLWXSDK;
+			productReference = 511B231367A3474E2E0DA57553EA4CE5 /* BLWXSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E60F90C84C9D75D35A0B4B9B5E914BC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B5461450DCD0D022C14EA2857653FA /* BLWXSDK */,
+				8312EDA2F09F8A7A23EED4D534BC9AA2 /* Pods-BLWXSDK_Example */,
+				71B9BE2F628495A36F751C69FCC3753B /* Pods-BLWXSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FAF9501FA509C2A6EEA6E353BB50F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36A09B70634E52E1194B48E4389E318 /* Pods-BLWXSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A33664198DA2E194179DC677E50DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51378A1C0A82F19ED843D68D61BCB7D0 /* BLWXSDK in Sources */,
+				69F1EF73D9DFD42880ABA2B3201065E5 /* BLWXSDK-dummy.m in Sources */,
+				00DBF28B992A8C5BEE0EAB434CB361E7 /* Info.plist in Sources */,
+				41109B13C04D66C3FC7A99C5799743CC /* module.modulemap in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8856FA0CDA9FB916BE2C70CB06D0779F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096035EC960D5CE3C981D1B7803C0546 /* Pods-BLWXSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83D9D3F957D90B1C34EC57D75BA86503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BLWXSDK;
+			target = F5B5461450DCD0D022C14EA2857653FA /* BLWXSDK */;
+			targetProxy = 028FD684D2FD8C43D2AA51B2947D93F7 /* PBXContainerItemProxy */;
+		};
+		DD0367AAB9E283ADD69F8920CE501D37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BLWXSDK_Example";
+			target = 8312EDA2F09F8A7A23EED4D534BC9AA2 /* Pods-BLWXSDK_Example */;
+			targetProxy = 815529287A2DA56C466ADE627307FDA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		069F7A8B05B7E833F1BBC2801EF20158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04ACF64FDBAD4B9AE92B592491124CF9 /* Pods-BLWXSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BLWXSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLWXSDK_Example/Pods-BLWXSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		238944CCCC4F35CC947093BB86E58AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9058D1787C4BB129895F2EB2F8ABECC3 /* Pods-BLWXSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BLWXSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLWXSDK_Tests/Pods-BLWXSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		262EE4142576789080C93E1F9BD33229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4A837AA5B2026D2CADBF542647F19D /* BLWXSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLWXSDK/BLWXSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLWXSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLWXSDK/BLWXSDK.modulemap";
+				PRODUCT_MODULE_NAME = BLWXSDK;
+				PRODUCT_NAME = BLWXSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43A8C722EF35B4EC861267A21C6AFEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4A837AA5B2026D2CADBF542647F19D /* BLWXSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BLWXSDK/BLWXSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BLWXSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BLWXSDK/BLWXSDK.modulemap";
+				PRODUCT_MODULE_NAME = BLWXSDK;
+				PRODUCT_NAME = BLWXSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D3E38D5D474614B6881563F93BAF0CD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96711C0BDEDE3CD8869D6F916A47E3E6 /* Pods-BLWXSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BLWXSDK_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLWXSDK_Example/Pods-BLWXSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2C39C54ACCE49A3153FC56B8A6F9859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A75C2F4FCE5B11910A18B67110F57A82 /* Pods-BLWXSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BLWXSDK_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BLWXSDK_Tests/Pods-BLWXSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		290236F9997190E7327E54FFD7FDCEC6 /* Build configuration list for PBXNativeTarget "Pods-BLWXSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069F7A8B05B7E833F1BBC2801EF20158 /* Debug */,
+				D3E38D5D474614B6881563F93BAF0CD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D935F22741DB41CA82A3699C291B5EB0 /* Build configuration list for PBXNativeTarget "BLWXSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A8C722EF35B4EC861267A21C6AFEC5 /* Debug */,
+				262EE4142576789080C93E1F9BD33229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA699934F88623862FE75DE736C34ED0 /* Build configuration list for PBXNativeTarget "Pods-BLWXSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238944CCCC4F35CC947093BB86E58AEE /* Debug */,
+				E2C39C54ACCE49A3153FC56B8A6F9859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

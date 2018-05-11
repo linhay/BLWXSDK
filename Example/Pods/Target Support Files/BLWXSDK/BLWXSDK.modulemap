@@ -1,0 +1,6 @@
+framework module BLWXSDK {
+  umbrella header "BLWXSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
